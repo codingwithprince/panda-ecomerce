@@ -1,0 +1,49 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root{
+    --main-color: #e41160;
+    --p-color: #e1357d;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* banner area style */
+#carouselExampleControls{
+    margin-top: 50px;
+    background-color: #feeae9;
+}
+.banner-text{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.banner-text h2{
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.banner-text p{
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+}
+.banner-text span{
+    font-size:40px;
+    font-weight: 600;
+    color: var(--main-color);
+    padding-bottom: 20px;
+}
+.banner-text a{
+    background-image: linear-gradient( #e1357d, #e41160);
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+}
