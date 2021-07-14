@@ -13,37 +13,31 @@ body{
 }
 
 /* banner area style */
-#carouselExampleControls{
-    margin-top: 50px;
+.container{
+    margin-bottom: 100px;
+}
+.orange-bg{
     background-color: #feeae9;
 }
-.banner-text{
-    padding-top: 50px;
-    padding-left: 30px;
-}
-.banner-text h2{
+.b-title{
     font-size: 50px;
     font-weight: 500;
+    padding-bottom: 20px;
     text-transform: uppercase;
 }
-.banner-text p{
-    font-size: 17px;
-    font-weight: 400;
-    text-align: justify;
-}
-.banner-text span{
-    font-size:40px;
-    font-weight: 600;
+.b-price{
+    font-size: 40px;
+    font-weight: 500;
     color: var(--main-color);
+    padding-right: 40px;
     padding-bottom: 20px;
 }
-.banner-text a{
-    background-image: linear-gradient( #e1357d, #e41160);
-    height: 40px;
-    width: 100px;
-    padding: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #fff;
+.b-btn{
+    background-image: linear-gradient(#e1357d, #e41160);
+    padding: 8px 20px;
     border-radius: 5px;
+    color: #fff;
+}
+.carousel-item{
+    padding: 30px;
 }
