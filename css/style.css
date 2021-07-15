@@ -35,9 +35,60 @@ body{
 .b-btn{
     background-image: linear-gradient(#e1357d, #e41160);
     padding: 8px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #fff;
+    text-transform: uppercase;
 }
 .carousel-item{
     padding: 30px;
+}
+
+/* Categories area */
+#categories-area h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.cat1, .cat2, .cat3{
+   
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.cat1{
+    background-color: orange;
+}
+.cat2{
+    background-color: purple;
+}   
+.cat3{
+    background-color: blue;
+}
+
+
+/* Shoes Categories */
+#shoes h1{
+    padding: 50px 0;
+}
+.card{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-title{
+    font-size: 35px;
+    padding: 20px 0;
+}
+.card-price{
+    font-size: 25px;
+    font-weight: 500;
+}
+.card-footer{
+    border-top: none;
+    background-color: #fff;
+}
+
+/* Contact area */
+.contact-box{
+    padding: 50px 20px;
 }
